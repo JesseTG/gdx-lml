@@ -4,11 +4,11 @@ apply plugin: 'maven'
 apply plugin: 'signing'
 
 sourceSets.main.java.srcDirs = [ "src/" ]
-sourceCompatibility = 1.6
+sourceCompatibility = 1.7
 
 ext {
     libVersion = '1.5'
-    gdxVersion = '1.7.2'
+    gdxVersion = '1.8.0'
     isSnapshot = '-SNAPSHOT'
 }
 
